@@ -1,0 +1,5 @@
+model todos {
+  id        Int      @default(autoincrement()) @id
+  title     String
+  content   String
+}
